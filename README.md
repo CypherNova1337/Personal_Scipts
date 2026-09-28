@@ -76,7 +76,8 @@ For everything this repo intentionally leaves out, use the dedicated tools:
 | Need | Tool |
 |------|------|
 | Full recon pipeline (subdomains → probe → crawl → vuln, 50 modules) | [VoidRecon](https://github.com/CypherNova1337/VoidRecon) |
-| Apex-domain recon methodology | [DomainDive](https://github.com/CypherNova1337/DomainDive) · [WebRecon-Arsenal](https://github.com/CypherNova1337/WebRecon-Arsenal) |
+| Recon when subdomains / wildcards are in scope | [WebRecon-Arsenal](https://github.com/CypherNova1337/WebRecon-Arsenal) |
+| Recon when scope is apex-only (no subdomains allowed) | [DomainDive](https://github.com/CypherNova1337/DomainDive) |
 | Subdomain permutation + resolve | [DNS-Helix](https://github.com/CypherNova1337/dns-helix) |
 | Hidden HTTP parameter discovery | [paramvoid](https://github.com/CypherNova1337/paramvoid) |
 | Adaptive, WAF-aware SQL injection | [SmartSQL](https://github.com/CypherNova1337/SmartSQL) |
