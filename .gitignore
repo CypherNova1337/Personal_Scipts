@@ -1,40 +1,18 @@
 # Secrets / local config — never commit API keys
-recon.env
-.env
 *.env
-!recon.env.example
+.env
 
-# Tool output directories
-recon_output/
-probe_output/
-urls_output/
-ports_output/
-js_output/
-pipeline_output/
-wayback_output/
-cors_output/
-redirect_output/
-takeover_output/
-xss_output/
-crlf_output/
-nuclei_output/
-params_output/
-
-# Common result/scratch files
+# Tool output
+*.jsonl
 *.tmp
 .input.tmp
-subdomains.txt
-all_subdomains.txt
-alienvault_urls.txt
-ghauri_results.txt
-dorks_output.txt
+
+# Python
+__pycache__/
+*.pyc
 
 # Editor / OS cruft
 *.swp
 *.swo
 *~
 .DS_Store
-
-# Python
-__pycache__/
-*.pyc
