@@ -1,4 +1,4 @@
-# Personal_Scripts
+# Personal Scripts
 
 Small, focused security tools that don't warrant their own repo — plus an index
 pointing at the dedicated tools that do the heavy lifting.
