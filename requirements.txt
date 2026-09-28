@@ -1,0 +1,10 @@
+# Python dependencies.
+#   pip install -r requirements.txt
+
+# Async HTTP engine (core/) — powers exploit/webscan.py
+httpx>=0.27
+
+# Optional: enables --http2 in the engine (pip install h2)
+# h2>=4.1
+
+# recon/secretscan.py uses only the Python standard library.
