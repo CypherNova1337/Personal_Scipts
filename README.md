@@ -81,6 +81,7 @@ For everything this repo intentionally leaves out, use the dedicated tools:
 | Subdomain permutation + resolve | [DNS-Helix](https://github.com/CypherNova1337/dns-helix) |
 | Hidden HTTP parameter discovery | [paramvoid](https://github.com/CypherNova1337/paramvoid) |
 | Adaptive, WAF-aware SQL injection | [SmartSQL](https://github.com/CypherNova1337/SmartSQL) |
+| Adaptive Local File Inclusion (depth/encoding, wrappers → RCE) | [LFI-Machine](https://github.com/CypherNova1337/LFI-Machine) |
 | RCE / SSTI / injection / deserialization | [VoidStrike](https://github.com/CypherNova1337/VoidStrike) |
 | IDOR / broken access control | [Auto-IDOR](https://github.com/CypherNova1337/Auto-IDOR) |
 | Origin-IP discovery behind a CDN | [VoidOrigin](https://github.com/CypherNova1337/VoidOrigin) |
@@ -88,7 +89,6 @@ For everything this repo intentionally leaves out, use the dedicated tools:
 | Sourcemap → original JS reconstruction | [sourcemapper](https://github.com/CypherNova1337/sourcemapper) |
 | gf patterns (incl. secret/key patterns) | [GF_Patterns](https://github.com/CypherNova1337/GF_Patterns) |
 | Nuclei templates | [Personal_Nuclei_Templates](https://github.com/CypherNova1337/Personal_Nuclei_Templates) · [Firebase_Nuclei](https://github.com/CypherNova1337/Firebase_Nuclei) |
-| Wordlists | [VoidLexicon](https://github.com/CypherNova1337/VoidLexicon) |
 
 ## License
 
